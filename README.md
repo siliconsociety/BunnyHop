@@ -1,6 +1,6 @@
 # BunnyCDN Async Video Uploader
 
-A minimalist Python utility for asynchronously uploading videos to BunnyCDN using the Bunny Video Delivery API. Leverages `httpx` and `aiofiles` for non-blocking HTTP requests and file I/O.
+A minimalist Python utility for asynchronously uploading videos to BunnyCDN using the Bunny Stream API. Leverages `httpx` and `aiofiles` for non-blocking HTTP requests and file I/O.
 
 ---
 
