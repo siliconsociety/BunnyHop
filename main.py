@@ -29,7 +29,7 @@ class BunnyHop:
 if __name__ == "__main__":
     async def main():
         bunny = BunnyHop()
-        vid_id = await bunny(title="Testing Video Upload", filepath="videos/screen-0.mp4")
+        vid_id = await bunny(title="Testing Video Upload", filepath="videos/movie.mp4")
         print(f"Video Upload Complete: {vid_id}")
 
 
