@@ -3,7 +3,7 @@ from main import BunnyHop
 
 
 # Typical Usage
-async def main():
+async def upload():
     bunny = BunnyHop()
     video_id = await bunny(
         title="My Test Video",
@@ -12,7 +12,7 @@ async def main():
     print(f"Video uploaded, ID: {video_id}")
 
 
-asyncio.run(main())
+asyncio.run(upload())
 
 
 # Concurrent Batching
