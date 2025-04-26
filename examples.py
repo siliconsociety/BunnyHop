@@ -10,7 +10,7 @@ async def upload():
         filepath="videos/movie.mp4"
     )
     print(f"Video uploaded, ID: {video_id}")
-
+    print(f"https://iframe.mediadelivery.net/play/{video_id}")
 
 asyncio.run(upload())
 
