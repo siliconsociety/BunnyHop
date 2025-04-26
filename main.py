@@ -1,5 +1,4 @@
 import os
-import asyncio
 
 import httpx
 import aiofiles
@@ -24,13 +23,3 @@ class BunnyHop:
             resp = await client.put(upload_url, headers=self.headers, content=data)
             resp.raise_for_status()
             return vid_id
-
-
-if __name__ == "__main__":
-    async def main():
-        bunny = BunnyHop()
-        vid_id = await bunny(title="Testing Video Upload", filepath="videos/movie.mp4")
-        print(f"Video Upload Complete: {vid_id}")
-
-
-    asyncio.run(main())
