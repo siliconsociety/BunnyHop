@@ -1,4 +1,4 @@
-# BunnyCDN Async Video Uploader
+# BunnyHop Async Video Uploader
 
 A minimalist Python utility for asynchronously uploading videos to BunnyCDN using the Bunny Stream API. Leverages `httpx` and `aiofiles` for non-blocking HTTP requests and file I/O.
 
@@ -35,8 +35,8 @@ A minimalist Python utility for asynchronously uploading videos to BunnyCDN usin
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/siliconsociety/BunnyCDN.git
-   cd BunnyCDN
+   git clone https://github.com/siliconsociety/BunnyHop.git
+   cd BunnyHop
    ```
 
 2. Create and activate a virtual environment:
