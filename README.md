@@ -1,6 +1,6 @@
-# BunnyHop Async Video Uploader
+# BunnyHop: Async Video Uploader for Bunny CDN (bunny.net)
 
-A minimalist Python utility for asynchronously uploading videos to BunnyCDN using the Bunny Stream API. Leverages `httpx` and `aiofiles` for non-blocking HTTP requests and file I/O.
+A minimalist Python utility for asynchronously uploading videos to Bunny CDN using the Bunny Stream API. Leverages `httpx` and `aiofiles` for non-blocking HTTP requests and file I/O.
 
 ---
 
@@ -19,7 +19,7 @@ A minimalist Python utility for asynchronously uploading videos to BunnyCDN usin
 ## Features
 
 - **Async-first**: Uses `httpx.AsyncClient` and `aiofiles` for fully asynchronous uploads.
-- **Simple API**: Wraps BunnyCDN video creation and upload in a single callable class.
+- **Simple API**: Wraps Bunny CDN video creation and upload in a single callable class.
 - **Error Handling**: Raises on non-2xx responses to fail fast.
 
 ---
@@ -27,7 +27,7 @@ A minimalist Python utility for asynchronously uploading videos to BunnyCDN usin
 ## Prerequisites
 
 - Python 3.8 or higher (3.12 recommended)
-- BunnyCDN Video Library credentials (API key and Library ID)
+- Bunny CDN Video Library credentials (API key and Library ID)
 
 ---
 
@@ -57,7 +57,7 @@ A minimalist Python utility for asynchronously uploading videos to BunnyCDN usin
 
 ## Configuration
 
-Create a `.env` file in the project root with your BunnyCDN credentials:
+Create a `.env` file in the project root with your Bunny CDN credentials:
 
 ```env
 BUNNY_API_KEY=your_bunny_api_key_here
